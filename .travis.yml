@@ -1,6 +1,8 @@
 dist: bionic
 language: java
 os: linux
+jdk:
+  - oraclejdk11
 
 build:
   - cd src
